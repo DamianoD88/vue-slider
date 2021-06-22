@@ -27,6 +27,9 @@ const start = new Vue (
                     this.counter--;
                 }
             },
+            cambiaPhoto(indice){
+                this.counter = indice;
+            }
             
         } 
     }
