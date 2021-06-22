@@ -15,22 +15,35 @@
         <div class="img-slide">
 
             <!-- start freccia di sx -->
-            <div class="pre">
+            <div class="pre" @click="prePhoto">
                 <i class="fas fa-chevron-left"></i>
             </div>
             <!-- end freccia di sx -->
 
              <!-- inizio immagini -->
              <div class="immagini">
-                <img src="img//img1.jpg" alt="Greece">
+                <img :src="photo[counter]" alt="Greece">
             </div>
             <!-- fine immagini -->
 
             <!-- start freccia di ds -->
-            <div class="pre">
+            <div class="next" @click="proxPhoto">
                 <i class="fas fa-chevron-right"></i>
             </div>
             <!-- end freccia di ds -->
+
+            <!-- start nav -->
+            <div class="nav">
+                <i class="fas fa-circle active"></i>
+                <i class="fas fa-circle"></i>
+                <i class="fas fa-circle"></i>
+                <i class="fas fa-circle"></i>
+                <i class="fas fa-circle"></i>
+                <i class="fas fa-circle"></i>
+                <i class="fas fa-circle"></i>
+                <i class="fas fa-circle"></i>
+            </div>
+            <!-- end nav -->
 
            
 
