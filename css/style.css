@@ -3,3 +3,29 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container {
+    width: 75%;
+    height: 100vh;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.img-slide {
+    width: 100%;
+    height: 70%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-slide .immagini {
+    height: 100%;
+}
+
+.img-slide .immagini img{
+    height: 100%;
+}
